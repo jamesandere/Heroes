@@ -19,4 +19,10 @@ public class HeroTest {
     Hero hero = new Hero("Avatar", 30, "air", "women");
     assertEquals("air", hero.getOtherPowers());
   }
+  
+  @Test
+  public void Hero_gets_weakness(){
+    Hero hero = new Hero("Avatar", 30, "air", "women");
+    assertEquals("women", hero.getOtherWeakness());
+  }
 }
