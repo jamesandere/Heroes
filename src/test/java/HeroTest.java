@@ -7,4 +7,10 @@ public class HeroTest {
     Hero hero = new Hero("Avatar", 30, "air", "women");
     assertEquals("Avatar", hero.getOtherName());
   }
+
+  @Test
+  public void Hero_gets_age(){
+    Hero hero = new Hero("Avatar", 30, "air", "women");
+    assertEquals(30, 30);
+  }
 }
