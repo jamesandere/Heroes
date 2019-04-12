@@ -29,4 +29,8 @@ public class Hero {
     public String getOtherPowers() {
         return otherPowers;
     }
+
+    public String getOtherWeakness() {
+        return otherWeakness;
+    }
 }
