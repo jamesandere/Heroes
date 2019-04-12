@@ -11,6 +11,12 @@ public class HeroTest {
   @Test
   public void Hero_gets_age(){
     Hero hero = new Hero("Avatar", 30, "air", "women");
-    assertEquals(30, 30);
+    assertEquals(30, hero.getOtherAge());
+  }
+
+  @Test
+  public void Hero_gets_powers(){
+    Hero hero = new Hero("Avatar", 30, "air", "women");
+    assertEquals("air", hero.getOtherPowers());
   }
 }
