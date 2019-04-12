@@ -25,4 +25,8 @@ public class Hero {
     public int getOtherAge() {
         return otherAge;
     }
+
+    public String getOtherPowers() {
+        return otherPowers;
+    }
 }
