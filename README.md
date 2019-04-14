@@ -5,6 +5,7 @@
 
 ## Description
 This is an application where users can create a Superhero with specific qualities and also create a Hero Squad.
+
 ## Setup/Installation Requirements
 * Open your browser.
 * Load github and create an account if you don't have one.
