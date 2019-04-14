@@ -19,4 +19,5 @@ public class SquadTest {
     Squad squad = new Squad("GangGang", 5, "Short people matter");
     assertEquals("Short people matter", squad.getSquadMission());
   }
+
 }
