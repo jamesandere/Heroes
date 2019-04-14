@@ -1,2 +1,1 @@
-
-web: ./build/install/todo/bin/Heroes
+web: ./build/install/Heroes/bin/Heroes
