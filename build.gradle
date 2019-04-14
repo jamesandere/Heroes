@@ -27,3 +27,4 @@ run {
 
 defaultTasks = ['clean']
 task stage(dependsOn: ['clean', 'installApp'])
+
