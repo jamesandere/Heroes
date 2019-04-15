@@ -8,6 +8,7 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 archivesBaseName = "Heroes"
 version = '1.0'
+applicationName = "app"
 mainClassName = "App"
 
 repositories {

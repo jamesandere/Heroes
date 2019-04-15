@@ -74,7 +74,7 @@ public class App {
 
       post("/squads", (request, response) -> {
           Map<String, Object> model = new HashMap<String, Object>();
-          ArrayList<Hero> heroes = request.session().attribute("squads");
+          ArrayList<Squad> squads = request.session().attribute("squads");
           String squadname= request.queryParams("name2");
           String squadsize= request.queryParams("size");
           String squadmission= request.queryParams("mission");
