@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Hero {
     private String otherName;
-    private int otherAge;
+    private String otherAge;
     private String otherPowers;
     private String otherWeakness;
 
-    public Hero(String name, int age, String power, String weakness) {
+    public Hero(String name, String age, String power, String weakness) {
         otherName = name;
         otherAge = age;
         otherPowers = power;
@@ -18,7 +18,7 @@ public class Hero {
         return otherName;
     }
 
-    public int getOtherAge() {
+    public String getOtherAge() {
         return otherAge;
     }
 

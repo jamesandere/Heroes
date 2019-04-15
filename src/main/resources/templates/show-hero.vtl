@@ -1,14 +1,14 @@
 <div class="showhero">
-#if($heroname)
-	<h2>You've created your Hero!</h2>
+#if($heroes)
+	<p>No heroes!</p>
+	#else
+
+<h2>You've created your Hero!</h2>
 	<img src="/images/Superhero.jpg" alt="">
 	<h4>Squad Name: <strong>$heroname</strong> </h4>
 	<h4>Squad Size: <strong>$heroage</strong> </h4>
 	<h4>Mission: <strong>$heropower</strong> </h4>
   <h4>Weakness: <strong>$heroweak</strong> </h4>
-
-	#else
-	<p>No heroes!</p>
 
 	#end
 </div>
